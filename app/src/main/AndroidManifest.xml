@@ -39,7 +39,7 @@
                 <category android:name="android.intent.category.DEFAULT"/>
                 <category android:name="android.intent.category.BROWSABLE"/>
                 <data android:host="com.empresa.vaultdrive"
-                    android:path="/JyL6wKNfIOBQEtXiJeu7yPXvOWo"
+                    android:path="/JyL6wKNfIOBQEtXiJeu7yPXvOWo%3D"
                     android:scheme="msauth"/>
             </intent-filter>
         </activity>
