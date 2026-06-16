@@ -1,0 +1,12 @@
+pluginManagement {
+    repositories { gradlePluginPortal(); google(); mavenCentral() }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google(); mavenCentral()
+        maven { url 'https://pkgs.dev.azure.com/MicrosoftDeviceSDKs/MSIDLib/_packaging/MSAL/maven/v1' }
+    }
+}
+rootProject.name = "VaultDrive"
+include ':app'

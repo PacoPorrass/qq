@@ -1,0 +1,19 @@
+{
+  "client_id": "f76b6c71-4faf-49b8-8f52-aa3efab90c69",
+  "authorization_user_agent": "WEBVIEW",
+  "redirect_uri": "msauth://com.empresa.vaultdrive/JyL6wKNfIOBQEtXiJeu7yPXvOWo",
+  "account_mode": "SINGLE",
+  "broker_redirect_uri_registered": false,
+  "authorities": [
+    {
+      "type": "AAD",
+      "audience": {
+        "type": "AzureADMyOrg",
+        "tenant_id": "ce41ecbd-c265-4b29-b346-e21bacf98945"
+      },
+      "default": true
+    }
+  ],
+  "http": { "connect_timeout": 10000, "read_timeout": 30000 },
+  "logging": { "pii_enabled": false, "log_level": "WARNING", "logcat_enabled": false }
+}

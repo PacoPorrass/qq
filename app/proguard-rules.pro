@@ -1,0 +1,6 @@
+-keep class com.microsoft.identity.** { *; }
+-dontwarn com.microsoft.**
+-dontwarn okhttp3.**
+-keep class retrofit2.** { *; }
+-keep class com.empresa.vaultdrive.data.model.** { *; }
+-keepattributes Signature,*Annotation*
