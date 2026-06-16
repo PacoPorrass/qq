@@ -1,7 +1,7 @@
 {
   "client_id": "f76b6c71-4faf-49b8-8f52-aa3efab90c69",
   "authorization_user_agent": "WEBVIEW",
-  "redirect_uri": "msauth://com.empresa.vaultdrive/JyL6wKNfIOBQEtXiJeu7yPXvOWo",
+  "redirect_uri": "msauth://com.empresa.vaultdrive/JyL6wKNfIOBQEtXiJeu7yPXvOWo%3D",
   "account_mode": "SINGLE",
   "broker_redirect_uri_registered": false,
   "authorities": [
