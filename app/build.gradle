@@ -15,7 +15,7 @@ android {
         versionName "3.0"
         buildConfigField "String", "CLIENT_ID", '"f76b6c71-4faf-49b8-8f52-aa3efab90c69"'
         buildConfigField "String", "TENANT_ID", '"ce41ecbd-c265-4b29-b346-e21bacf98945"'
-        manifestPlaceholders = [msalRedirectUri: "msauth://com.empresa.vaultdrive/JyL6wKNfIOBQEtXiJeu7yPXvOWo"]
+        manifestPlaceholders = [msalRedirectUri: "msauth://com.empresa.vaultdrive/JyL6wKNfIOBQEtXiJeu7yPXvOWo%3D"]
     }
 
     buildFeatures { viewBinding true; buildConfig true }
